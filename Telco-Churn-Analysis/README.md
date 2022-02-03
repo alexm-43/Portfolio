@@ -10,15 +10,15 @@ Understanding your customer base is an integral part of any business. One method
 
 The feature found to have the most correlation with churn rate was customer tenure. The graph below illustrates the churn rates at each month of customer tenure. There is a clear visual negative trend indicating that, somewhat unsurprisingly, the longer customers stay with the company, the lower the churn rates. 
 
-<img src="~/projects/portfolio/Telco-Churn-Analysis/Graphs/tenure_lineplot.png" alt="Customer Tenure vs. Churn Rate" style="height: 288px; width:432px;"/>
+<img src="Graphs/tenure_lineplot.png" alt="Customer Tenure vs. Churn Rate" style="height: 288px; width:432px;"/>
 
 More interestly, however, the relationship between tenure and churn rate fits almost perfectly (r2= .999) to a logarithmic model. This indicates that churn is a huge potential issue in the first few months of gaining a customer, however after this initial period churn rates stabilize and tenure becomes of minimal importance.
 
-<img src="~/projects/portfolio/Telco-Churn-Analysis/Graphs/tenure_regression.png" alt="Customer Tenure Regression" style="height: 360px; width:720px;"/>
+<img src="Graphs/tenure_regression.png" alt="Customer Tenure Regression" style="height: 360px; width:720px;"/>
 
 This idea is further illustrated when looking at the distribution of those customers who have left. 40% of these customers left within the first 4-5 months of signing up. This time period is most critical to retain customers.
 
-<img src="~/projects/portfolio/Telco-Churn-Analysis/Graphs/tenure_hist.png" alt="Customer Tenure Distribution" style="height: 241px; width:520px;"/>
+<img src="Graphs/tenure_hist.png" alt="Customer Tenure Distribution" style="height: 360px; width:777px;"/>
 
 Along the same vein, longer lengths of contracts also decrease churn rates significantly. Despite the lack of data points, I would speculate that this has a somewhat similar relationship to the logarithmic relationship that tenure has with churn rates.
 
@@ -27,11 +27,11 @@ Though phone services did not seem to have a meaningful relationship with churn,
 
 Some additional services also had notable relationships with churn. Supportive services like tech support and online security have the most impact on churn. Customers who have these services were 3 times less likely to leave the company. Though less dramatic, protective services (i.e. device protection, online backup) also had an impact on churn rates, with subscribing customers about 2 times less likely to leave. Streaming services did not seem to have much impact on churn. 
 
-<img src="~/projects/portfolio/Telco-Churn-Analysis/Graphs/internet_service.png" alt="Internet-Service Graph" style="height: 241px; width:520px;"/><img src="~/projects/portfolio/Telco-Churn-Analysis/Graphs/additional_services.png" alt="Additional Services Graph" style="height: 241px; width:520px;"/>
+<img src="Graphs/internet_service.png" alt="Internet-Service Graph" style="height: 360px; width:777px;"/><img src="Graphs/additional_services.png" alt="Additional Services Graph" style="height: 360px; width:777px;"/>
 
 Finally, There are a couple demographic differences worth mentioning. The churn rate of senior citizens was almost double that of those who weren’t. We also see churn rates decrease if customers have either a romantic partner or dependents. Customers who are a part of a family (partner+dependents) were 2.4 times more loyal than customers who were single with no dependents.
 
-<img src="~/projects/portfolio/Telco-Churn-Analysis/Graphs/demographics.png" alt="Demographics Graph" style="height: 241px; width:520px;"/><img src="~/projects/portfolio/Telco-Churn-Analysis/Graphs/relationship_status.png" alt="Relationship-Status Graph" style="height: 241px; width:520px;"/>
+<img src="Graphs/demographics.png" alt="Demographics Graph" style="height: 360px; width:777px;"/><img src="Graphs/relationship_status.png" alt="Relationship-Status Graph" style="height: 360px; width:777px;"/>
 
 
 ## Areas to Further Research:
