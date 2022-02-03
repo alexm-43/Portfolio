@@ -6,6 +6,8 @@
 
 Understanding your customer base is an integral part of any business. One method to aid this goal is analyzing customer churn and identifying key characteristics impacting whether a customer will continue buying from the company. This analysis can be used to drive customer-focused business insights and decisions. In this report, we take a surface-level look into the customer churn of the global telecommunications company Telco. The data is made up of 7043 customers and includes 21 features measuring things like account information, demographics, and services used. The goal of the project is to identify and visualize some key characteristics that drive churn. This information could be used to take a deeper dive into the specific areas identified or to develop predictive models. 
 
+Check out Alex's Code for this project <a href="https://github.com/alexm-43/Portfolio/blob/main/Telco-Churn-Analysis/churn_analysis_telco.ipynb" title="Go to the Jupyter Notebook page of this project" target="_blank">here.</a>
+
 ## Key Findings
 
 The feature found to have the most correlation with churn rate was customer tenure. The graph below illustrates the churn rates at each month of customer tenure. There is a clear visual negative trend indicating that, somewhat unsurprisingly, the longer customers stay with the company, the lower the churn rates. 
@@ -46,4 +48,4 @@ Monthly charges have an interesting relationship with churn. As seen in the char
 - Using the plotly express library, I made some appealing and interactive charts to create a better user experience. 
 
 ## Datasets Used
-- Kaggle: Telco customer Churn
+- <a href="https://www.kaggle.com/blastchar/telco-customer-churn" title="Go to Kaggle.com" target="_blank">Telco Customer Churn</a> (source: kaggle.com)
