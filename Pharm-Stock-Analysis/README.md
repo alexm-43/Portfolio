@@ -8,7 +8,7 @@ Over the course of the Covid-19 pandemic, we’ve seen the U.S. stock market do 
 
 In this project, we take a surface level look at stock prices compared to covid-19 cases. Three main U.S. companies who have produced vaccines were analyzed (Pfizer, Moderna, and Johnson & Johnson). We also look at the S&P 500 index as a baseline measure of the economy. The goal is to find out whether these stock prices are correlated with Covid cases and by just how much.
 
-Check out Alex's Code for this project <a href="https://github.com/alexm-43/Portfolio/blob/main/Telco-Churn-Analysis/churn_analysis_telco.ipynb" title="Go to the Jupyter Notebook page of this project" target="_blank">here.</a>
+Check out Alex's Code for this project <a href="https://github.com/alexm-43/Portfolio/blob/main/Pharm-Stock-Analysis/pharm_stock_analysis.ipynb" title="Go to the Jupyter Notebook page of this project" target="_blank">here.</a>
 
 ## Key Findings
 
@@ -17,10 +17,17 @@ When looking at the correlation numbers between stock prices and cumulative case
 
 Comparing daily cases led to much more interesting results. Both Moderna as well as Johnson & Johnson saw correlation numbers at or below those of the S&P 500. However, there seems to be a more significant relationship between daily cases and Pfizer. In the graph below, you can see that the shape of the Pfizer stock data looks much closer to that of the daily cases, compared to the other two companies.
 
+<img src="visuals/stock_prices.png" alt="Stock Prices Throughout Pandemic" style="height: 700px; width:798px;"/>
 
 
-In fact, whenever there was a spike in covid cases, there seemed to also be a spike in the Pfizer stock. There is only really one time period where the direction of PFE stock price doesn’t match that of daily covid cases. This is between ~March, 2021-June, 2021. This difference could be explained by the S&P 500’s steady growth during this time. Pfizer’s stock experienced very similar rates of growth.
+In fact, whenever there was a spike in covid cases, there seemed to also be a spike in the Pfizer stock.
 
+<img src="visuals/daily_cases.png" alt="Daily Cases Over Time" style="height: 300px; width:798px;"/>
+<img src="visuals/PFE_price.png" alt="Pfizer Stock Price" style="height: 300px; width:798px;"/>
+
+There is only really one time period where the direction of PFE stock price doesn’t match that of daily covid cases. This is between ~March, 2021-June, 2021. This difference could be explained by the S&P 500’s steady growth during this time. Pfizer’s stock experienced very similar rates of growth.
+
+<img src="visuals/SPY_PFE.png" alt="PFE and S&P" style="height: 300px; width:798px;"/>
 
 The difference in correlation of Pfizer compared to the other companies could be explained by the dominance that Pfizer has in vaccines sold. The Pfizer vaccine has been administered 50% more times than Moderna, and the Johnson & Johnson numbers don’t come anywhere close to either of them. 
 
@@ -32,12 +39,12 @@ Confidently explaining why we see these trends between Pfizer’s stock prices a
 
 ## About the Programming and Analysis
 
-- The stock data was fetched using the Yahoo! Finance API
-- The data was imported into Jupyter Lab, where it was cleaned and formatted
+- The stock data was fetched using the Yahoo! Finance API.
+- The data was imported into Jupyter Lab, where it was cleaned and formatted.
 - I looked through the correlation matrix to compare stock prices against covid data. 
-- Seaborn was used to visualize some regressions between cumulative cases
-- Plotly express was then used for the more useful visualizations and subplots
+- Seaborn was used to visualize some regressions between cumulative cases.
+- Plotly express was then used for the more useful visualizations and subplots.
 
 ## Datasets Used:
-- NY Times Covid Data
+- <a href="https://github.com/nytimes/covid-19-data/blob/master/us.csv" title="Go to Github.com" target="_blank">NY Times Covid Data</a> (source: Github.com)
 
